@@ -14,6 +14,8 @@
     border: 2px solid rgb(199, 0, 199);
     border-radius: 25px;
     font-family: Inconsolata;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: black;
 }
 
 body {
@@ -43,7 +45,7 @@ body {
     width: 18vmin;
     border-radius: 25px;
     border: none;
-    background-color:blueviolet;
+    background-color: blueviolet;
     box-shadow: 1px 0 10px rgb(67, 67, 67);
     color: white;
     font-size: 35px;
@@ -57,11 +59,11 @@ body {
 }
 
 .ResetButton {
-    height : 6vmin;
+    height: 6vmin;
     width: 40vmin;
     border-radius: 25px;
     border: none;
-    background-color:rgb(88, 88, 88);
+    background-color: rgb(88, 88, 88);
     box-shadow: 1px 0 10px rgb(67, 67, 67);
     color: white;
     font-size: 20px;
