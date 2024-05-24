@@ -27,6 +27,7 @@ reset.addEventListener('click', () => {
         button.disabled = false;
         mesg.classList.add("hide");
         gmcont.classList.remove("hide");
+        currentPlayer = "X";
     });
 });
 

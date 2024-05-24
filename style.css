@@ -67,6 +67,12 @@ body {
     font-size: 20px;
 }
 
+.ResetButton:hover {
+    height: 6.5vmin;
+    width: 40.5vmin;
+    transition: 0.3s;
+}
+
 .msg {
     margin-top: 200px;
     margin-bottom: 170px;
