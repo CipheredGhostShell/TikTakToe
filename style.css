@@ -24,6 +24,7 @@ body {
     height: 70vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .GameContainer {
@@ -68,6 +69,11 @@ body {
 
 .msg {
     margin-top: 200px;
+    margin-bottom: 170px;
+    padding: 15px 25px 15px 25px;
+    background-color: gold;
+    color: black;
+    border-radius: 30px;
 }
 
 .hide {
