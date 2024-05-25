@@ -54,7 +54,7 @@ const checkWinner = () => {
                 if (p1 === p2 && p2 === p3) {
                     mesg.classList.remove("hide");
                     gmcont.classList.add("hide");
-                    mesg.innerText = `Congratulations ${p1}, You Won The Game!`;
+                    mesg.innerText = `Congratulations ${p1}, You Won The Game!🏆`;
                 }
             }
         }
