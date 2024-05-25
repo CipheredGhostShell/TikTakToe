@@ -1,2 +1,2 @@
-# Tic-Tac-Toe Game <img src="icons8-tic-tac-toe-96.png">
+# Tic-Tac-Toe Game <img style="height:30px;" src="icons8-tic-tac-toe-96.png">
 This is a simple yet fun Tic-Tac-Toe game developed using HTML, CSS, and JavaScript. The game features a responsive design, interactive gameplay, and an intuitive user interface. Players can take turns marking spaces in a 3x3 grid, aiming to align three marks in a row, column, or diagonal to win. Enjoy playing against a friend in this classic two-player game!
