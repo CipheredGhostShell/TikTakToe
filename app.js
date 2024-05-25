@@ -60,3 +60,23 @@ const checkWinner = () => {
         }
     }
 }
+
+//Action For Dark Mode
+let checkbox = document.querySelector('.theme-switch__checkbox');
+let mode = "light";
+
+checkbox.addEventListener("click", () => {
+    if (checkbox.checked) {
+        mode = "dark";
+        document.querySelector('body').style.backgroundColor = 'rgb(73, 73, 73)';
+        document.querySelector('.ResetButton').style.backgroundColor = 'antiquewhite';
+        document.querySelector('.ResetButton').style.color = 'black';
+
+    } else {
+        mode = "light";
+        document.querySelector('body').style.backgroundColor = 'antiquewhite';
+        document.querySelector('.ResetButton').style.backgroundColor = 'rgb(88, 88, 88)';
+        document.querySelector('.ResetButton').style.color = 'white';
+    }
+});
+
